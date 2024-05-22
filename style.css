@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9; /* Light blue background */
+  }
+  
+  .container {
+    max-width: 800px;
+    
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    color: #1e5d85; /* Dark blue color for the title */
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  .content {
+    
+   
+  }
+  
+  .button-container {
+    flex: 1;
+  }
+  
+  .WorkoutButton {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #fff; /* White text color */
+    background-color: #1e5d85; /* Dark blue button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .WorkoutButton:hover {
+    background-color: #2e8bc0; /* Lighter blue on hover */
+  }
+  
+  .workout-details {
+    flex: 2;
+    padding-left: 20px;
+   
+  }
+  
+  .workout-details h2 {
+    color: #333; /* Dark grey color for the workout details title */
+  }
+  
+  .workout-info {
+    background-color: #fff; /* White background for the workout info */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .workout-info p {
+    margin: 0 0 10px;
+  }
+  
+  .media-container {
+    text-align: center;
+  }
+  
+  #exercise-image {
+    max-width: 100%;
+    height: auto;
+  }
+  #exercise-name {
+    text-align: center;
+  }
+  .exerciseButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .exerciseButtons button {
+    width: 140px;
+    height: 40px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #1e5d85;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exerciseButtons button:hover {
+    background-color: #2e8bc0;
+  }
+  
+ 
