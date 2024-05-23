@@ -110,5 +110,9 @@ body {
   .exerciseButtons button:hover {
     background-color: #2e8bc0;
   }
-  
+  .videoContainer {
+    
+    width: 400px;
+    margin: 0px 200px 0px 200px;
+  }
  
